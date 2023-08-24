@@ -3,7 +3,7 @@ To be able to build custom-sized `InvMenu` instances, you must install the [tedo
 
 ### Example API Usage
 To build a 5-slot InvMenu, use `CustomSizedInvMenu::create(5)`:
-```php
+```php 
 /** @var Player $player */
 $menu = CustomSizedInvMenu::create(5);
 $menu->setName("This is a 5-slot Inventory");
